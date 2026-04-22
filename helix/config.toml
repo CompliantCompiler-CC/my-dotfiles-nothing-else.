@@ -1,0 +1,11 @@
+theme = "catppuccin_frappe"
+
+[editor.statusline]
+# Optional: explicitly define what shows on the left/center/right
+left = ["mode", "spinner", "file-name"]
+
+# Customize the display text for each mode
+[editor.statusline.mode]
+normal = "-- NORMAL --"
+insert = "-- INSERT --"
+select = "-- VISUAL --"
